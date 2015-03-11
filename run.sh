@@ -11,7 +11,6 @@ if [[ -z "$REDIS_PORT" ]]; then
 fi
 if [[ -z "$REDIS_PSWD" ]]; then  #should i fail if not set?
     echo "REDIS_PSWD not set. Please SET"
-    exit 12
     export REDIS_PSWD=""
 fi
 
